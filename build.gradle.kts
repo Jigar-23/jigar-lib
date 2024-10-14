@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    `maven-publish` // Add this line to apply the maven-publish plugin
+    `maven-publish`
 }
 
 group = "com.github.Jigar-23"
@@ -53,7 +53,6 @@ publishing {
     repositories {
         maven {
             url = uri("https://jitpack.io")
-        
         }
     }
 }

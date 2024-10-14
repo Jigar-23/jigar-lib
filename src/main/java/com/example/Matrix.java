@@ -1,4 +1,5 @@
 package com.example;
+
 public class Matrix {
     public static int[][] prod(int[][] arr1, int[][] arr2) {
         int m1 = arr1.length;
@@ -18,4 +19,35 @@ public class Matrix {
 
         return ans;
     }
+
+    public static int trace(int[][] arr) {
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i][i];
+        }
+        return sum;
+    }
+
+    public static int[][] sum(int[][] arr1, int[][] arr2) {
+        int m1 = arr1.length;
+        int n1 = arr1[0].length;
+        for (int i = 0; i < m1; i++) {
+            for (int j = 0; j < n1; j++) {
+                arr1[i][j] += arr2[i][j];
+            }
+        }
+        return arr1;
+    }
+
+    public static int[][] sub(int[][] arr1, int[][] arr2) {
+        int m1 = arr1.length;
+        int n1 = arr1[0].length;
+        for (int i = 0; i < m1; i++) {
+            for (int j = 0; j < n1; j++) {
+                arr1[i][j] -= arr2[i][j];
+            }
+        }
+        return arr1;
+    }
+
 }
