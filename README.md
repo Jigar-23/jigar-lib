@@ -1,4 +1,4 @@
-Add 
+Add the following
 
     mavenCentral()
     maven("https://jitpack.io")
