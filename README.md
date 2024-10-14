@@ -3,7 +3,7 @@ Add the following
     mavenCentral()
     maven("https://jitpack.io")
 
-in the repositories which has the structure of the kind in the build.gradle
+in the repositories which has the structure of the following kind in the build.gradle
 
     repositories {
     ...
