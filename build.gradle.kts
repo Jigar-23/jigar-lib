@@ -53,10 +53,7 @@ publishing {
     repositories {
         maven {
             url = uri("https://jitpack.io")
-            credentials {
-                username = "Jigar-23"  // Your GitHub username
-                password = "jp_auvmfu70aj57gvbo5nmraeh8i4"  // Your JitPack access token
-            }
+        
         }
     }
 }
