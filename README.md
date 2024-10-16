@@ -14,7 +14,7 @@ in the repositories which has the structure of the following kind in the build.g
 Add the following dependency in build.gradle
 
     dependencies {
-	        implementation 'com.github.Jigar-23:jigar-lib:1.0.2'
+	        implementation 'com.github.Jigar-23:jigar-lib:1.0.3'
 	}
 
 
