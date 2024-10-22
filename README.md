@@ -8,7 +8,7 @@
     
     }
     dependencies {
-	   implementation 'com.github.Jigar-23:jigar-lib:1.0.3'
+           implementation("com.github.Jigar-23:jigar-lib:1.0.3")
 	}
 
 
@@ -22,7 +22,7 @@
     
     }
     dependencies {
-	        implementation("com.github.Jigar-23:jigar-lib:1.0.3")
+	   implementation 'com.github.Jigar-23:jigar-lib:1.0.3'   
 	}
 
 
