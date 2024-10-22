@@ -12,6 +12,17 @@ in the repositories which has the structure of the following kind in the build.g
 
     
     }
+
+for groovy dsl 
+    repositories {
+    ...
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+
+    
+    }
+
+    
 Add the following dependency in build.gradle
 
     dependencies {
