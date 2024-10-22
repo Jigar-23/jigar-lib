@@ -1,4 +1,4 @@
-for kotlin dsl
+**For kotlin dsl**
 
     repositories {
     ...
@@ -7,15 +7,12 @@ for kotlin dsl
 
     
     }
-
-Add the following dependency in build.gradle
-
     dependencies {
-	        implementation 'com.github.Jigar-23:jigar-lib:1.0.3'
+	   implementation 'com.github.Jigar-23:jigar-lib:1.0.3'
 	}
 
 
-for groovy dsl 
+**For groovy dsl**
     
     repositories {
     ...
@@ -24,10 +21,6 @@ for groovy dsl
 
     
     }
-
-    
-Add the following dependency in build.gradle
-
     dependencies {
 	        implementation("com.github.Jigar-23:jigar-lib:1.0.3")
 	}
