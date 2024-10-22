@@ -1,14 +1,15 @@
 Add the following
 
     mavenCentral()
-    maven("https://jitpack.io")
+    maven { url = uri("https://jitpack.io") }
 
 in the repositories which has the structure of the following kind in the build.gradle
 
     repositories {
     ...
     mavenCentral()
-    maven("https://jitpack.io")
+    maven { url = uri("https://jitpack.io") }
+
     
     }
 Add the following dependency in build.gradle
