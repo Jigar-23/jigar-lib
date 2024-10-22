@@ -1,9 +1,4 @@
-Add the following
-
-    mavenCentral()
-    maven { url = uri("https://jitpack.io") }
-
-in the repositories which has the structure of the following kind in the build.gradle
+for kotlin dsl
 
     repositories {
     ...
@@ -12,6 +7,13 @@ in the repositories which has the structure of the following kind in the build.g
 
     
     }
+
+Add the following dependency in build.gradle
+
+    dependencies {
+	        implementation 'com.github.Jigar-23:jigar-lib:1.0.3'
+	}
+
 
 for groovy dsl 
     
@@ -27,7 +29,7 @@ for groovy dsl
 Add the following dependency in build.gradle
 
     dependencies {
-	        implementation 'com.github.Jigar-23:jigar-lib:1.0.3'
+	        implementation("com.github.Jigar-23:jigar-lib:1.0.3")
 	}
 
 
