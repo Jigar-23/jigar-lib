@@ -1,12 +1,9 @@
-package com.example.Encryption;
+package com.example.Images;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class Image {
 
@@ -40,7 +37,6 @@ public class Image {
 
         return imageData;
     }
-    public void editImage(String path,int ) {}
 
 
 
